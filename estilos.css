@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+header{
+    background-color: #0cc;
+    color: #fff;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 25px;
+}
+
+h2{
+    color: #068;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #222;
+}
+
+nav ul{
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.quienes_somos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.quienes_somos_izquierda {
+    width: 60%;
+    text-align: justify;
+}
+
+.quienes_somos_derecha {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_quienes_somos {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    margin: 10px;
+    padding: 15px 45px;
+    border: none;
+    background: linear-gradient(to right, #009ea4, #00bfcd);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.Opciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.opcion_uno, .opcion_dos{
+    width: 900px;
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+    justify-content: space-between; /* Separar los elementos */
+    margin: 30px;
+    border: 2px solid #068;
+    border-radius: 5px;
+}
+
+.opcion_uno_imagen, .opcion_dos_imagen{
+    width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+footer{
+    background-color: #0cc;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+    justify-content: space-between; /* Separar los elementos */
+}
+
+h5{
+    margin: 50px;
+}
+
+.logo_clinica{
+    width: 200px;
+    align-self: center;
+    border-radius: 15px;
+}
+
+form{
+    display: table;
+    margin: auto;
+    padding-top: 25px;
+    text-align: justify;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+input{
+    font-size: 0.8em;
+    width: 500px;
+}
+
+form div{
+    display: table-row;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #057;
+}
+
+textarea{
+    min-width: 100%;
+    resize: none;
+    min-height: 100px;
+    max-height: 200px;
+    font-family: system-ui;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.aceptar-notificaciones {
+    display: flex;
+    flex-direction: column; /* Alinea el contenido en columna */
+    border: 2px solid #bbb;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center; /* Centra el texto */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin: auto; /* Centra el bloque */
+    align-items: center; /* Centra el contenido */
+}
+
+
+.enviar-form{
+    display: block;
+    margin: 20px auto; /* Centra el botón horizontalmente */
+    cursor: pointer;
+}
+
+.selects{
+    font-family: system-ui;
+    font-size: 0.8em;
+}
+
+.date{
+    font-family: system-ui;
+    font-size: 0.8em;
+}
