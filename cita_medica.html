@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClinicaPrivada</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <div>
+                <h1>CLÍNICA PRIVADA</h1>
+            </div>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="cita_medica.html">Agendar Cita</a>
+            </li>
+            <li>
+                <a href="">Médicos y Horarios</a>
+            </li>
+            <li>
+                <a href="">Contacto</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <form>
+                <div>
+                    <label >Nombre Completo
+                        <input type="text" placeholder="Ariana Martinez">
+                    </label>
+                </div>
+                <div>
+                    <label>Documento de Identificación
+                        <input type="text" placeholder="DPI/CUI">
+                    </label>
+                </div>
+                <div>
+                    <label>Correo Electrónico
+                        <input type="email" placeholder="ejemplo@email.com">
+                    </label>
+                </div>
+                <div>
+                    <label>Número de Teléfono
+                        <input type="number" placeholder="+502 0000 0000">
+                    </label>
+                </div>
+                <div>
+                    <label>Fecha de Nacimiento
+                        <input type="date" class="date">
+                    </label>
+                </div>
+                <div>
+                    <label for="seleccion-medico">Médico
+                        <select name="Médicos" id="seleccion-medico" class="selects">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="Medico1">Manuel Coronado</option>
+                            <option value="Medico2">Estephania Martinez</option>
+                            <option value="Medico3">Javier Ortega</option>
+                            <option value="Medico4">Carolina Fernandez</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label for="seleccion-horario">Horario
+                        <select name="Horarios" id="seleccion-horario"  class="selects">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="mañana1">8:00 - 9:00 AM</option>
+                            <option value="mañana2">9:00 - 10:00 AM</option>
+                            <option value="tarde1">2:00 - 3:00 PM</option>
+                            <option value="tarde2">3:00 - 4:00 PM</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label>Motivo de Agendar una Cita Médica <br>
+                        <textarea></textarea>
+                    </label>
+                </div>
+                <div>
+                    <label>Seleccionar Fecha
+                        <input type="date" class="date">
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="aceptar-notificaciones">
+            <label>¿Desea recibir el Recordatorio de su Cita?<br>
+                <input type="checkbox" class="checkbox"><br>Acepto recibir notificaciones<br>
+            </label>
+        </div>
+        <div>
+            <button class="enviar-form">Enviar</button>
+        </div>
+    </main>
+
+    <footer>
+        <h5>Politicas de Privacidad</h5>
+        <img src="/img/Clinica_Privada_Logo.png" class="logo_clinica">
+        <h5>Términos y Condiciones</h5>
+    </footer>
+</body>
+</html>
