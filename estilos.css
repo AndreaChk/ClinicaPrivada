@@ -4,6 +4,10 @@ body{
     font-family: system-ui;
 }
 
+main{
+    box-sizing: border-box;
+}
+
 header{
     background-color: #0cc;
     color: #fff;
@@ -74,14 +78,16 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
+
 button a{
     text-decoration: none;
     color: #fff;
 }
 
 button{
+    box-sizing: border-box;
     margin: 10px;
-    padding: 15px 45px;
+    padding: 20px 30px;
     border: none;
     background: linear-gradient(to right, #009ea4, #00bfcd);
     color: #fff;
@@ -89,6 +95,7 @@ button{
     font-weight: bold;
     font-size: 16px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+
 }
 
 .Opciones{
@@ -96,20 +103,32 @@ button{
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.dos_opciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .opcion_uno, .opcion_dos{
-    width: 900px;
     display: flex;
     align-items: center; /* Alinear verticalmente */
-    justify-content: space-between; /* Separar los elementos */
-    margin: 30px;
+    justify-content: space-around; /* Separar los elementos */
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
     border: 2px solid #068;
     border-radius: 5px;
 }
 
 .opcion_uno_imagen, .opcion_dos_imagen{
-    width: 50%;
+    box-sizing: border-box;
+    width: 45%;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
